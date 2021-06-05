@@ -1,24 +1,13 @@
-# README
+# Hello_App_Docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Tutorial 第1章を実行するための環境です。
 
-Things you may want to cover:
+## 使い方
+```
+$ git clone https://github.com/atarubift/hello_app_docker.git
+$ docker-compose build
+$ docker-compose up -d
+$ docker-compose run --rm web bundle exec rails db:create
+```
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
